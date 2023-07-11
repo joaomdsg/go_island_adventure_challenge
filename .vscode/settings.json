@@ -1,10 +1,12 @@
 {
-    "emeraldwalk.runonsave": [
-        {
-            "match": ".go$",
-            "command": "sh tcr.sh",
-            "runIn": "terminal"
-        }
-    ]
+    "emeraldwalk.runonsave": {
+        "commands":  [
+            {
+                "match": ".go$",
+                "command": "sh tcr.sh",
+                //"runIn": "terminal"
+            }
+        ]
+    }
    
 }

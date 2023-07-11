@@ -19,7 +19,7 @@ Got everything? Great! Adventure awaits!
 1. Clone this repository to your local machine. No machetes needed – just a simple `git clone` will do!
 
    ```
-   git clone https://github.com/yourusername/island_adventure_challenge.git
+   git clone https://github.com/yourusername/go_island_adventure_challenge.git
    ```
 
 2. Navigate to the project directory.
@@ -36,7 +36,7 @@ Got everything? Great! Adventure awaits!
 
 ## Challenges 🌊
 
-Each challenge comes with its own directory, with a fun name like `1_calculate_perimeter`. Inside, you'll find a `.go` file and a `.test.go` file to test your mettle (and your code).
+Each challenge comes with its own directory, with a fun name like `1_calculate_perimeter`. Inside, you'll find a `main_test.go` file to write your mettle tests (and your code).
 
 To complete a challenge, navigate to its directory, write your solution in the `.go` file, and then run your tests. And remember – this is an island, not a library. Have fun while coding! 🎉
 
