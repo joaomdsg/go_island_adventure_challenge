@@ -24,5 +24,4 @@ func CalculatePerimeter(points [][]int) (float64, error) {
 
 	// Your task: Return the calculated perimeter or an error if constraints are out of bounds
 	return perimeter, nil
-
 }
