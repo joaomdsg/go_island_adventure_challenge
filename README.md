@@ -22,13 +22,13 @@ Got everything? Great! Adventure awaits!
 1. Clone this repository to your local machine. No machetes needed – just a simple `git clone` will do!
 
    ```
-   git clone https://github.com/yourusername/go_island_adventure_challenge.git
+   git clone https://github.com/joaomdsg/go_island_adventure_challenge.git
    ```
 
 2. Navigate to the project directory.
 
    ```
-   cd island_adventure_challenge
+   cd go_island_adventure_challenge
    ```
 
 3. Install the necessary Go packages (like coconuts, but for your code).
@@ -36,6 +36,7 @@ Got everything? Great! Adventure awaits!
    ```
    go mod tidy
    ```
+
 ## TCR (Test && Commit || Revert) ☠️
 
 We're using a TCR workflow here. It's kind of like those old pirate codes, but way more helpful (and with fewer peg-legged parrots). If your tests pass, your code gets committed automatically. If they don't, your changes get tossed overboard. Make sure to keep your code seaworthy!
@@ -44,28 +45,14 @@ Check out the [.vscode](.vscode) directory for the necessary settings and tasks 
 
 ## Challenges 🌊
 
-Prepare to embark on a thrilling coding quest, where each challenge is housed in its very own whimsical directory, adorned with a captivating name like 1_calculate_perimeter. Within these enchanting directories, you'll discover the secrets of the challenge, waiting to be unraveled by your coding prowess.
+Prepare to embark on a thrilling coding quest, where each challenge is housed in [challenges](./challenges). Within these enchanting directories, you'll discover the secrets of the challenge, waiting to be unraveled by your coding prowess.
 
-Picture the treasure trove that awaits you:
+Within the each directory, you'll uncover the secrets of the challenge:
 
-```
-./challenges/
-├── 1_calculate_perimeter/
-│   ├── description.md
-│   └── main_test.go
-└── (...)/
-```
+- `description.md`: Delve into the detailed challenge description, revealing the problem statement, requirements, and any additional information to guide your quest.
+- `main_test.go`: This is your battlefield of tests and code. Harness your skills, craft tests, and forge a solution that triumphs over the challenge.
 
-Within the ./challenges/1_calculate_perimeter/ directory, you'll uncover the secrets of the challenge:
-
-- description.md: Delve into the detailed challenge description, revealing the problem statement, requirements, and any additional information to guide your quest.
-- main_test.go: This is your battlefield of tests and code. Harness your skills, craft tests, and forge a solution that triumphs over the challenge.
-
-With this engaging structure, venture forth into the challenges, conquer each one, and unlock the treasures that lie ahead! Happy coding, brave adventurer! ⚔️
-
-## Contributing 🍹
-
-Feel like adding a challenge or improving something? Awesome! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide on how to contribute. We welcome pull requests like a beach bar welcomes thirsty explorers. 🍍
+Armed with this knowledge, venture forth into the challenges, conquer each one, and unlock the treasures that lie ahead! Happy coding, brave adventurer! ⚔️
 
 ## Got stuck? 🏖️
 
@@ -80,3 +67,7 @@ But remember, explorer: with great power comes great responsibility. The true ad
 If ye find yourself in such a pickle, then by all means, let the 'buried_treasure' guide your way. But tread lightly, and remember: every challenge solved by your own wits is a victory against the unpredictable seas of coding. So, keep sailing, keep exploring, and make every line of code your own adventure! ⚓️🌊
 
 Alright, that's enough chit-chat. Time to dive into the challenges and start your Island Adventure Challenge. Good luck, and happy coding, explorer! 🏝😎
+
+## Contributing 🍹
+
+Feel like adding a challenge or improving something? Awesome! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide on how to contribute. We welcome pull requests like a beach bar welcomes thirsty explorers. 🍍
