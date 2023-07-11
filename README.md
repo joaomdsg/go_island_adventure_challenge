@@ -36,18 +36,32 @@ Got everything? Great! Adventure awaits!
    ```
    go mod tidy
    ```
-
-## Challenges 🌊
-
-Each challenge comes with its own directory, with a fun name like `1_calculate_perimeter`. Inside, you'll find a `main_test.go` file to write your mettle tests (and your code).
-
-To complete a challenge, navigate to its directory, write your solution in the `.go` file, and then run your tests. And remember – this is an island, not a library. Have fun while coding! 🎉
-
 ## TCR (Test && Commit || Revert) ☠️
 
 We're using a TCR workflow here. It's kind of like those old pirate codes, but way more helpful (and with fewer peg-legged parrots). If your tests pass, your code gets committed automatically. If they don't, your changes get tossed overboard. Make sure to keep your code seaworthy!
 
 Check out the [.vscode](.vscode) directory for the necessary settings and tasks for VSCode to work in TCR mode.
+
+## Challenges 🌊
+
+Prepare to embark on a thrilling coding quest, where each challenge is housed in its very own whimsical directory, adorned with a captivating name like 1_calculate_perimeter. Within these enchanting directories, you'll discover the secrets of the challenge, waiting to be unraveled by your coding prowess.
+
+Picture the treasure trove that awaits you:
+
+```
+./challenges/
+├── 1_calculate_perimeter/
+│   ├── description.md
+│   └── main_test.go
+└── (...)/
+```
+
+Within the ./challenges/1_calculate_perimeter/ directory, you'll uncover the secrets of the challenge:
+
+- description.md: Delve into the detailed challenge description, revealing the problem statement, requirements, and any additional information to guide your quest.
+- main_test.go: This is your battlefield of tests and code. Harness your skills, craft tests, and forge a solution that triumphs over the challenge.
+
+With this engaging structure, venture forth into the challenges, conquer each one, and unlock the treasures that lie ahead! Happy coding, brave adventurer! ⚔️
 
 ## Contributing 🍹
 
