@@ -1,4 +1,4 @@
-# Island Adventure Challenge :island:
+# Island Adventure Challenge 🏝
 
 Welcome to the Island Adventure Challenge project! This repository hosts a set of programming challenges to help you practice your TDD skills, TCR style :sunglasses:. Each challenge simulates a situation that an intrepid gopher explorer faces while discovering new islands, and your task is to help them by solving these challenges.
 
