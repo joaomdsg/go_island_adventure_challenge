@@ -1,0 +1,9 @@
+{
+    "runOnSave.commands": [
+        {
+            "match": ".go$",
+            "command": "sh tcr.sh",
+            "runIn": "terminal"
+        }
+    ]
+}
