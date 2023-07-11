@@ -3,8 +3,7 @@
         "commands":  [
             {
                 "match": ".go$",
-                "command": "sh tcr.sh",
-                //"runIn": "terminal"
+                "cmd": "sh tcr.sh"
             }
         ]
     }
