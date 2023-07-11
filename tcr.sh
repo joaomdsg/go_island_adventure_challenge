@@ -1,2 +1,2 @@
 #!/bin/bash
-go test ./... && git commit -am working || git reset --hard
+go test ./... && git add . && git commit -am working || git reset --hard
