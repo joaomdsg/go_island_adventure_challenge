@@ -14,7 +14,6 @@ Before we set sail, make sure you've got the right gear:
 - [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) Enables TCR (Test && Commit || Revert) ☠️ coding style that make the adventures extra challenging!
 
 > **Warning** <br>
-> Attention intrepid explorers!
 > The TCR feature works on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
 > If you're using a different operating system, you may need to find an alternative solution to enable the TCR coding style.
 
