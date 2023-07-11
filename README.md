@@ -1,6 +1,6 @@
-# Island Adventure Challenge
+# Island Adventure Challenge :island:
 
-Welcome to the Island Adventure Challenge project! This repository hosts a set of programming challenges in the style of Advent of Code. Each challenge simulates a situation that an intrepid explorer faces while discovering new islands, and your task is to help them by solving these challenges.
+Welcome to the Island Adventure Challenge project! This repository hosts a set of programming challenges to help you practice your TDD skills, TCR style :sunglasses:. Each challenge simulates a situation that an intrepid gopher explorer faces while discovering new islands, and your task is to help them by solving these challenges.
 
 ## Getting Started
 
@@ -43,7 +43,7 @@ Here's how to set this up:
     "runOnSave.commands": [
         {
             "match": ".go$",
-            "command": "./tcr.sh",
+            "command": "sh tcr.sh",
             "runIn": "terminal"
         }
     ]
