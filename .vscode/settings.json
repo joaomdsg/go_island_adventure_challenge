@@ -3,7 +3,7 @@
         "commands":  [
             {
                 "match": ".go$",
-                "cmd": "sh tcr.sh"
+                "cmd": "go test ./... && git add . && git commit -am working || git reset --hard"
             }
         ]
     }

@@ -7,5 +7,5 @@ import (
 )
 
 func TestTCR(t *testing.T) {
-	assert.Equal(t, true, false)
+	assert.Equal(t, true, true)
 }
