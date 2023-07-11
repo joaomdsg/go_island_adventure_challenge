@@ -13,10 +13,11 @@ Before we set sail, make sure you've got the right gear:
 - [VS Code](https://code.visualstudio.com/download) (or your preferred IDE): A real explorer needs the right tools. Set up camp with VS Code or your favorite IDE, just make sure it supports some kind of `run on save` feature.
 - [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) Enables TCR (Test && Commit || Revert) ☠️ coding style that make the adventures extra challenging!
 
->Note for intrepid explorers!
->
->The TCR feature works on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
->If you're using a different operating system, you may need to find an alternative solution to enable the TCR coding style.
+> **Warning**
+> Attention intrepid explorers!
+> 
+> The TCR feature works on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
+> If you're using a different operating system, you may need to find an alternative solution to enable the TCR coding style.
 
 Got everything? Great! Adventure awaits!
 
