@@ -21,7 +21,7 @@ func CalculatePerimeter(points [][]int) float64 {
 		d := math.Sqrt(math.Pow(x2-x1, 2) + math.Pow(y2-y1, 2))
 		p += d
 	}
-	return 4
+	return p
 }
 
 // d = √((x2 - x1)² + (y2 - y1)²)
