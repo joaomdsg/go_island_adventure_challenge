@@ -1,3 +1,5 @@
 package main
 
-func CalculatePerimeter(points [][]int) {}
+func CalculatePerimeter(points [][]int) {
+
+}
