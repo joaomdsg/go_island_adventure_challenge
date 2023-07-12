@@ -1,6 +1,8 @@
 # Solutions 💎
 
-You have reached the insides of the treasure chest! 🗝️🔓📖
+ 🗝️🔓📖
+
+You have reached the insides of the treasure chest!
 
 But remember, explorer: with great power comes great responsibility. The true adventure lies not in the destination, but the journey. So, we advise you not to dig up these solutions unless ye find yourself marooned, stuck between the rock of the challenge and the hard place of a relentless error message. 🦜💬
 

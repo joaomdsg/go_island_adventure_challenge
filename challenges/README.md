@@ -1,6 +1,6 @@
 # Challenges 🌊
 
-Greetings Explorer! Let's have a quick chat before you go fourth to your first challenge. 🦜💬
+Greetings Explorer! Let's have a quick chat before you venture fourth into your first challenge. 🦜💬
 
 Within each of these directories, you'll uncover the secrets of its challenge:
 
@@ -24,7 +24,5 @@ Armed with this knowledge, venture forth into the challenges, conquer each one, 
 If you hit a roadblock, don't sweat it... You can always cheat! 🏴‍☠️
 
 Aye, it be true. The solutions to these here challenges aren't lost to the sea. They're safely stashed away in the [buried_treasure](../burried_tresure/) directory, waiting for some brave soul to unearth them. Here, you can have the key: 🗝️
- 
-
 
 Alright, that's enough chit-chat. Time to dive into the challenges and start your Island Adventure Challenge. Good luck, and happy coding, explorer! 🏝️😎 
