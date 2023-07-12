@@ -14,7 +14,7 @@ func CalculatePerimeter(points [][2]int) float64 {
 	return p
 }
 
-// Calculates distance between 2 points given the formula:
+// Calculates distance between 2 points using:
 // d = √((x2 - x1)² + (y2 - y1)²)
 func calculateDistance(point1, point2 [2]int) float64 {
 	x1 := float64(point1[0])

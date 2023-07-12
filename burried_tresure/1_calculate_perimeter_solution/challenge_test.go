@@ -15,3 +15,9 @@ func TestCalculatePerimeter1(t *testing.T) {
 	p := CalculatePerimeter(points)
 	assert.Equal(t, 4.0, p)
 }
+
+func TestCalculatePerimeter2(t *testing.T) {
+	points := [][2]int{{0, 0}, {0, 10}, {10, 10}, {10, 0}}
+	p := CalculatePerimeter(points)
+	assert.Equal(t, 40.0, p)
+}
