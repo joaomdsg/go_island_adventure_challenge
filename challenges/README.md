@@ -1,6 +1,8 @@
 # Challenges 🌊
 
-Within the each directory, you'll uncover the secrets of the challenge:
+Greetings Explorer!
+
+Within the each directory, you'll uncover the secrets of its challenge:
 
 - `README.md`: Delve into the detailed challenge description, revealing the problem statement, requirements, and any additional information to guide your quest.
 - `main_test.go` and `main.go`: This is your battlefield of tests and code. Harness your skills, craft tests, and forge a solution that triumphs over the challenge. 
