@@ -9,12 +9,7 @@ func CalculatePerimeter(points [][2]int) float64 {
 			p += calculateDistance(point, points[len(points)-1])
 			continue
 		}
-		x1 := float64(point[0])
-		x2 := float64(point[1])
-		y1 := float64(points[idx-1][0])
-		y2 := float64(points[idx-1][1])
-		d := math.Sqrt(math.Pow(x2-x1, 2) + math.Pow(y2-y1, 2))
-		p += d
+		p += calculateDistance(point, points[idx-1])
 	}
 	return p
 }
