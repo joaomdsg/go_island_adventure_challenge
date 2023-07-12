@@ -2,7 +2,7 @@ package main
 
 import "math"
 
-func CalculatePerimeter(points [][]int) float64 {
+func CalculatePerimeter(points [][2]int) float64 {
 	p := 0.0
 	for idx, point := range points {
 		if idx == 0 {
@@ -24,4 +24,8 @@ func CalculatePerimeter(points [][]int) float64 {
 	return p
 }
 
+// Calculates distance between 2 points given the formula:
 // d = √((x2 - x1)² + (y2 - y1)²)
+func calculateDistance(point1, point2 [2]int) float64 {
+	return 0
+}
