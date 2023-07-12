@@ -17,11 +17,3 @@ import (
 func TestCalculatePerimeter(t *testing.T) {
 	assert.Equal(t, 1, 1, "Placeholder assert that always passes")
 }
-
-func CalculatePerimeter(points [][]int) (float64, error) {
-	// Your task: Calculate the perimeter here
-	perimeter := 0.0
-
-	// Your task: Return the calculated perimeter or an error if constraints are out of bounds
-	return perimeter, nil
-}
