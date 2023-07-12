@@ -19,14 +19,10 @@ Armed with this knowledge, venture forth into the challenges, conquer each one, 
 
 ## Got stuck? 🏖️
 
-If you hit a roadblock, don't sweat it! You can always cheat 🏴‍☠️
+If you hit a roadblock, don't sweat it... You can always cheat! 🏴‍☠️
+
+Aye, it be true. The solutions to these here challenges aren't lost to the sea. They're safely stashed away in the [buried_treasure](../burried_tresure/) directory, waiting for some brave soul to unearth them. Here, you can have the key: 🗝️
  
-## Solutions 💎
 
-Aye, it be true. The solutions to these here challenges aren't lost to the sea. They're safely stashed away in the 'buried_treasure' directory, waiting for some brave soul to unearth them.
-
-But remember, explorer: with great power comes great responsibility. The true adventure lies not in the destination, but the journey. So, we advise you not to dig up these solutions unless ye find yourself marooned, stuck between the rock of the challenge and the hard place of a relentless error message. 🦜
-
-If ye find yourself in such a pickle, then by all means, let the 'buried_treasure' guide your way. But tread lightly, and remember: every challenge solved by your own wits is a victory against the unpredictable seas of coding. So, keep sailing, keep exploring, and make every line of code your own adventure! ⚓️🌊
 
 Alright, that's enough chit-chat. Time to dive into the challenges and start your Island Adventure Challenge. Good luck, and happy coding, explorer! 🏝️😎 

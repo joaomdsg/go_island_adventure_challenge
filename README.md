@@ -49,27 +49,6 @@ We will wield the `emeraldwalk.RunOnSave` extension for this. Check out the [.vs
 
 Prepare to embark on a thrilling coding quest, where each challenge is housed in [challenges](./challenges). Within these enchanting directories, you'll discover the secrets of the challenge, waiting to be unraveled by your coding prowess.
 
-Within the each directory, you'll uncover the secrets of the challenge:
-
-- `description.md`: Delve into the detailed challenge description, revealing the problem statement, requirements, and any additional information to guide your quest.
-- `main_test.go`: This is your battlefield of tests and code. Harness your skills, craft tests, and forge a solution that triumphs over the challenge.
-
-Armed with this knowledge, venture forth into the challenges, conquer each one, and unlock the treasures that lie ahead! Happy coding, brave adventurer! ⚔️
-
-## Got stuck? 🏖️
-
-If you hit a roadblock, don't sweat it! You can always cheat!
- 
-#### Solutions 💎
-
-Aye, it be true. The solutions to these here challenges aren't lost to the sea. They're safely stashed away in the 'buried_treasure' directory, waiting for some brave soul to unearth them. 🏴‍☠️
-
-But remember, explorer: with great power comes great responsibility. The true adventure lies not in the destination, but the journey. So, we advise you not to dig up these solutions unless ye find yourself marooned, stuck between the rock of the challenge and the hard place of a relentless error message. 🦜
-
-If ye find yourself in such a pickle, then by all means, let the 'buried_treasure' guide your way. But tread lightly, and remember: every challenge solved by your own wits is a victory against the unpredictable seas of coding. So, keep sailing, keep exploring, and make every line of code your own adventure! ⚓️🌊
-
-Alright, that's enough chit-chat. Time to dive into the challenges and start your Island Adventure Challenge. Good luck, and happy coding, explorer! 🏝😎
-
 ## Contributing 🍹
 
 Feel like adding a challenge or improving something? Awesome! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for a quick guide on how to contribute. We welcome pull requests like a beach bar welcomes thirsty explorers. 🍍
