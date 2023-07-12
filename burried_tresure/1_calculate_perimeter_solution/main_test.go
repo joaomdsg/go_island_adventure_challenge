@@ -38,3 +38,9 @@ func TestCalculatePerimeter_Too_Many_Points(t *testing.T) {
 	_, err := CalculatePerimeter(points)
 	assert.Error(t, err, "The function should return an error if more than 10000 points are given")
 }
+
+func TestCalculatePerimeter_OutOfRange_Coordinates_UpperBound(t *testing.T) {
+	points := [][2]int{{0, 0}, {0, 10001}, {10001, 10001}, {10001, 0}}
+	_, err := CalculatePerimeter(points)
+	assert.Error(t, err, "The function should return an error if any coordinates are outside the range -10000 to 10000")
+}

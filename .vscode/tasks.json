@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Git Squash",
+        "type": "shell",
+        "command": "git reset --soft HEAD~$(git rev-list --count @{u}..) && git fetch",
+        "args": [],
+        "problemMatcher": []
+      }
+    ]
+  }
