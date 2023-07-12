@@ -1,6 +1,6 @@
 # Solutions 💎
 
- 🗝️🔓📖
+🗝️🔓📖
 
 You have reached the insides of the treasure chest! 🦜💬
 
