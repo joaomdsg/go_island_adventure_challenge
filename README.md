@@ -11,10 +11,10 @@ Before we set sail, make sure you've got the right gear:
 - [Go](https://golang.org/dl/): It's not just the language of the challenge, it's the spirit of it! 
 - [Git](https://git-scm.com/downloads): Git ready to clone, commit, and push your way to victory!
 - [VS Code](https://code.visualstudio.com/download) (or your preferred IDE): A real explorer needs the right tools. Set up camp with VS Code or your favorite IDE, just make sure it supports some kind of `run on save` feature.
-- [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) This is needed to enable TCR (Test && Commit || Revert), a coding style that makes the adventures extra challenging! ☠️
+- [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) This is needed to enable TCR (Test && Commit || Revert), a coding style that makes the challenges extra spicy! 🧨🧨🧨
 
 > **Warning** <br>
-> The TCR feature works on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
+> The TCR feature is only guarateed to work on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
 > If you're using a different operating system, you may need to find an alternative solution to enable the TCR coding style.
 
 Got everything? Great! Adventure awaits!
