@@ -12,5 +12,6 @@ func TestTCR(t *testing.T) {
 
 func TestXxx(t *testing.T) {
 	points := [][]int{{0, 0}, {0, 1}, {1, 1}, {1, 0}}
-	CalculatePerimeter(points)
+	p := CalculatePerimeter(points)
+	assert.Equal(t, 4.0, p)
 }
