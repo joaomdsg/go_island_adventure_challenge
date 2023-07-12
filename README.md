@@ -1,6 +1,6 @@
 # Island Adventure Challenge 🏝😎
 
-Hey, there, brave explorer! Welcome to the Island Adventure Challenge, a coding journey like no other. If you're ready to sharpen your Go skills while having a whale of a time, you're in the right place. Each challenge is designed to bring you closer to becoming a master Go programmer while keeping things breezy, fun, and adventurous! 🦜
+Hey, there, brave explorer! Welcome to the Island Adventure Challenge, a coding journey like no other. If you're ready to sharpen your Go skills while having a whale of a time, you're in the right place. Each challenge is designed to bring you closer to becoming a master Go programmer while keeping things breezy, fun, and adventurous! 🦜💬
 
 This repo contains a series of challenges, each with their own unique twists and turns. The challenges are all Go-based and take the form of fun, island-related tasks. No need for heavy jackets or mittens here – just pack your coding skills and a sense of adventure! 🌴
 
