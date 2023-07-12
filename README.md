@@ -13,7 +13,7 @@ Before we set sail, make sure you've got the right gear:
 - [Go](https://golang.org/dl/): It's not just the language of the challenge, it's the spirit of it! 
 - [Git](https://git-scm.com/downloads): Git ready to clone, commit, and push your way to victory!
 - [VS Code](https://code.visualstudio.com/download) (or your preferred IDE): A real explorer needs the right tools. Set up camp with VS Code or your favorite IDE, just make sure it supports some kind of `run on save` feature.
-- [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) This is needed to enable TCR (Test && Commit || Revert), a coding style that makes the challenges extra spicy! 🧨🧨🧨
+- [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) This is needed to enable TCR (Test && Commit || Revert), a coding style that makes the challenges extra spicy! 🧨☠️
 
 > **Warning** <br>
 > The TCR feature is only guarateed to work on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
@@ -45,7 +45,9 @@ Got everything? Great! Adventure awaits!
 
 We're using a TCR workflow here. It's kind of like those old pirate codes, but way more helpful (and with fewer peg-legged parrots). If your tests pass, your code gets committed automatically. If they don't, your changes get tossed overboard. Make sure to keep your code seaworthy!
 
-We will wield the `emeraldwalk.RunOnSave` extension for this. Check out the [.vscode](.vscode) directory for the configuration that enables VSCode to work in TCR mode.
+We will wield the `emeraldwalk.RunOnSave` extension for this. Check out the [.vscode/settings.json](.vscode/settings.json) directory for the configuration that enables VSCode to work in TCR mode.
+
+And don't forget to keep the `TCR Output` always visible so you can see the instant feedback of your tests and code. Open the 'Output' tab or click on View > Output, then select 'Run On Save' from the dropdown box. 
 
 ## Challenges 🌊
 
