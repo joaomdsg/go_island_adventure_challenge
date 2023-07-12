@@ -45,13 +45,13 @@ Got everything? Great! Adventure awaits!
 
 We're using a TCR workflow here. It's kind of like those old pirate codes, but way more helpful (and with fewer peg-legged parrots). If your tests pass, your code gets committed automatically. If they don't, your changes get tossed overboard. Make sure to keep your code seaworthy!
 
-We will wield the `emeraldwalk.RunOnSave` extension for this. Check out the [.vscode/settings.json](.vscode/settings.json) directory for the configuration that enables VSCode to work in TCR mode.
+You will need the `emeraldwalk.RunOnSave` extension for this. Check out the [.vscode/settings.json](.vscode/settings.json) for the configuration that enables VSCode to work in TCR mode. 🧭
 
-And don't forget to keep the `TCR Output` always visible so you can see the instant feedback of your tests and code. Open the 'Output' tab or click on View > Output, then select 'Run On Save' from the dropdown box. 
+And don't forget to keep the `TCR Output` always visible. Open the 'Output' tab (or click on View > Output), then select 'Run On Save' from the dropdown box. You will gain a great advantage—the instant feedback of your tests and code that lights your path forward into the unknown. 🕯️
 
 ## Challenges 🌊
 
-Prepare to embark on a thrilling coding quest, where each challenge is housed in [challenges](./challenges). Within these enchanting directories, you'll discover the secrets of the challenge, waiting to be unraveled by your coding prowess.
+Prepare to embark on a thrilling coding quest, where each challenge is housed in [challenges](./challenges). Within these enchanting directories, you'll discover the secrets each challenge, waiting to be unraveled by your coding prowess.
 
 ## Contributing 🍹
 
