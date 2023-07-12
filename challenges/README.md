@@ -15,9 +15,7 @@ Now, you're handed a solitary shovel—your chance to write just enough code in 
 
 Once you're assured of your treasure hunt and feel the sand between your toes, hit save and brace yourself. If your test passes, you've struck gold and your changes will be commemorated on the island. But if your test fails, a rogue wave washes ashore, erasing all traces of your efforts from the sands of both files. Hence, step lightly, adventurous code-navigator.
 
-Embark on this thrilling cycle of exploration and discovery, guided by your tests like stars in the night, until you're standing on the summit of a fully-realized implementation. Adventure awaits!
-
-Armed with this knowledge, venture forth into the challenges, conquer each one, and unlock the treasures that lie ahead! Happy coding, brave adventurer! ⚔️
+Embark on this thrilling cycle of exploration and discovery, guided by your tests like stars in the night, until you're standing on the summit of a fully-realized implementation. Happy coding, brave adventurer! ⚔️
 
 ## Got stuck? 🏖️
 
