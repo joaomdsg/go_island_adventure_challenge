@@ -17,16 +17,16 @@ Your mission: write a function `CalculatePerimeter(points [][]int) float64` that
 You'll want to test out your function. Feel free to use these examples as a starting point:
 
 ```go
-points := [][]int{{0,0},{0,1},{1,1},{1,0}}
+points := [][2]int{{0,0},{0,1},{1,1},{1,0}}
 CalculatePerimeter(points)
 ```
 Output: `4`
 
 ```go
-points := [][]int{{-3,-2},{-1,4},{6,1},{3,10},{-4,9}}
+points := [][2]int{{-3,-2},{-1,4},{6,1},{3,10},{-4,9}}
 CalculatePerimeter(points)
 ```
-Output: `27.982756057296896`
+Output: `48.57564046313958`
 
 ## Constraints
 
@@ -35,54 +35,52 @@ Every challenge has its limits. Here are yours:
 - The array of points will have at least 3 elements and at most 10000 elements.
 - The coordinates will be integers in the range -10000 to 10000.
 
-# Tests
+# Acceptance Tests
 
-Alright, it's time to make sure your solution holds water. Split up your tests into smaller ones, each focusing on a specific scenario. You can use these to get started:
+Alright, it's time to make sure your solution holds water. When you fell confident of your implementation, copy these tests, one by one, to your test file. Save in between a check if the tests pass. And if all tests have passed, concratulations!! You have now been deemed worthy of the next challenge! 🏆
 
 ```go
 func TestCalculatePerimeter_Square_Unit(t *testing.T) {
-    points := [][]int{{0,0},{0,1},{1,1},{1,0}}
-    assert.Equal(t, 4.0, CalculatePerimeter(points), "The perimeter of a unit square should be 4")
+	points := [][2]int{{0, 0}, {0, 1}, {1, 1}, {1, 0}}
+	p, _ := CalculatePerimeter(points)
+	assert.Equal(t, 4.0, p, "The perimeter of a unit square should be 4")
 }
 ```
 
 ```go
 func TestCalculatePerimeter_Complex_Shape(t *testing.T) {
-    points = [][]int{{-3,-2},{-1,4},{6,1},{3,10},{-4,9}}
-    assert.InDelta(t, 27.982756057296896, CalculatePerimeter(points), 0.0000001, "The perimeter calculation should be accurate to within a small delta")
+	points := [][2]int{{-3, -2}, {-1, 4}, {6, 1}, {3, 10}, {-4, 9}}
+	p, _ := CalculatePerimeter(points)
+	assert.InDelta(t, 48.57564046313958, p, 0.0000001, "The perimeter calculation should be accurate to within a small delta")
 }
 ```
 
 ```go
-func TestCalculatePerimeter_Square_Large(t *testing.T) {
-    points = [][]int{{0,0},{10,0},{10,10},{0,10}}
-    assert.Equal(t, 40.0, CalculatePerimeter(points), "The perimeter of a square with side length 10 should be 40")
+func TestCalculatePerimeter_Too_Many_Points(t *testing.T) {
+	points := make([][2]int, 10001)
+	for i := range points {
+		points[i] = [2]int{0, 0}
+	}
+	_, err := CalculatePerimeter(points)
+	assert.Error(t, err, "The function should return an error if more than 10000 points are given")
 }
 ```
 
-And don't forget to test when the constraints are not met:
+And don't forget the constraints tests:
 
 ```go
-func TestCalculatePerimeter_Fewer_Points(t *testing.T) {
-    points := [][]int{{0,0},{0,1}}
-    assert.Error(t, CalculatePerimeter(points), "The function should return an error if fewer than 3 points are given")
-}
-```
-
-```go
-func TestCalculatePerimeter_Many_Points(t *testing.T) {
-    points := make([][]int, 10001)
-    for i := range points {
-        points[i] = []int{i, i}
-    }
-    assert.Error(t, CalculatePerimeter(points), "The function should return an error if more than 10000 points are given")
+func TestCalculatePerimeter_OutOfRange_Coordinates_UpperBound(t *testing.T) {
+	points := [][2]int{{0, 0}, {0, 10001}, {10001, 10001}, {10001, 0}}
+	_, err := CalculatePerimeter(points)
+	assert.Error(t, err, "The function should return an error if any coordinates are outside the range -10000 to 10000")
 }
 ```
 
 ```go
-func TestCalculatePerimeter_OutOfRange_Coordinates(t *testing.T) {
-    points := [][]int{{0,0},{0,10001},{10001,10001},{10001,0}}
-    assert.Error(t, CalculatePerimeter(points), "The function should return an error if any coordinates are outside the range -10000 to 10000")
+func TestCalculatePerimeter_OutOfRange_Coordinates_LowerBound(t *testing.T) {
+	points := [][2]int{{0, 0}, {0, -10001}, {-10001, -10001}, {-10001, 0}}
+	_, err := CalculatePerimeter(points)
+	assert.Error(t, err, "The function should return an error if any coordinates are outside the range -10000 to 10000")
 }
 ```
 
