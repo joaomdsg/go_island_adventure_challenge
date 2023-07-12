@@ -9,7 +9,7 @@ Within each of these directories, you'll uncover the secrets of its challenge:
 
 ## Unleash Your Strategic Mind! 🎯
 
-Chart unknown territories in the vast ocean of code. Start your expedition by etching an enigmatic map—a test—in `main_test.go`. Save it, then watch with anticipation as the waves crash in the `Run On Save Output`. Can't find it? Pay close atention then—turn your eye to your VSCode ToolBar > View > Output, then select "Run On Save" from the dropdown box—Ahh.. there it is! Seeing your test fail initially is like discovering an uncharted island—it confirms our journey has purpose and isn't just meandering in familiar waters.
+Chart unknown territories in the vast ocean of code. Start your expedition by etching an enigmatic map—a test—in `main_test.go`. Save it, then watch with anticipation as the waves crash in the `Run On Save Output`. Can't find it? Pay close atention then—turn your eye to your VSCode ToolBar > View > Output, then select "Run On Save" from the dropdown menu—Ahh.. there it is! Seeing your test fail initially is like discovering an uncharted island—it confirms our journey has purpose and isn't just meandering in familiar waters.
 
 Now, you're handed a solitary shovel—your chance to write just enough code in `main.go` to dig up the buried treasure—that is, to transform the test from a perplexing riddle into a gleaming success.
 
