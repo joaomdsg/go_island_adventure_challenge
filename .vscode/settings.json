@@ -6,6 +6,10 @@
                 "match": ".go$",
                 "notMatch": "_test.go$",
                 "cmd": "go test ./... && git add . && git commit -am working || git reset --hard"
+            },
+            {
+                "match": "_test.go$",
+                "cmd": "go test ${file}"
             }
         ]
     }

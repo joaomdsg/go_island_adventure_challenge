@@ -11,7 +11,7 @@ Before we set sail, make sure you've got the right gear:
 - [Go](https://golang.org/dl/): It's not just the language of the challenge, it's the spirit of it! 
 - [Git](https://git-scm.com/downloads): Git ready to clone, commit, and push your way to victory!
 - [VS Code](https://code.visualstudio.com/download) (or your preferred IDE): A real explorer needs the right tools. Set up camp with VS Code or your favorite IDE, just make sure it supports some kind of `run on save` feature.
-- [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) Enables TCR (Test && Commit || Revert) ☠️ coding style that make the adventures extra challenging!
+- [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) (VS Code Extension) This is needed to enable TCR (Test && Commit || Revert), a coding style that makes the adventures extra challenging! ☠️
 
 > **Warning** <br>
 > The TCR feature works on Unix-like systems like Linux and macOS, as well as the Windows Subsystem for Linux (WSL). 
@@ -43,7 +43,7 @@ Got everything? Great! Adventure awaits!
 
 We're using a TCR workflow here. It's kind of like those old pirate codes, but way more helpful (and with fewer peg-legged parrots). If your tests pass, your code gets committed automatically. If they don't, your changes get tossed overboard. Make sure to keep your code seaworthy!
 
-Check out the [.vscode](.vscode) directory for the necessary settings and tasks for VSCode to work in TCR mode.
+We will wield the `emeraldwalk.RunOnSave` extension for this. Check out the [.vscode](.vscode) directory for the configuration that enables VSCode to work in TCR mode.
 
 ## Challenges 🌊
 
