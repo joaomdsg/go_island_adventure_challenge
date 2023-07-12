@@ -20,13 +20,13 @@ You'll want to test out your function. Feel free to use these examples as a star
 points := [][2]int{{0,0},{0,1},{1,1},{1,0}}
 CalculatePerimeter(points)
 ```
-Output: `4`
+Output: `4.0`
 
 ```go
-points := [][2]int{{-3,-2},{-1,4},{6,1},{3,10},{-4,9}}
+points := [][2]int{{0,0},{0,10},{10,10},{10,0}}
 CalculatePerimeter(points)
 ```
-Output: `48.57564046313958`
+Output: `40.0`
 
 ## Constraints
 
