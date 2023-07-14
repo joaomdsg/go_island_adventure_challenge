@@ -21,7 +21,7 @@ Before you begin, there are several constraints and conditions you need to be aw
 3. The numbers on the cells must accurately represent the straight-line distance to the treasure. If they don't, your function should return an error.
 4. There must be exactly one treasure on the map. If there is more than one, your function should return an error.
 
-## Challenge Description 📝
+## Example 📝
 
 Consider this example map:
 
