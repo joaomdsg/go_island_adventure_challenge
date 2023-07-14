@@ -1,4 +1,4 @@
-# Solutions 💎
+# Buried Treasure 💎
 
 🗝️🔓📖
 
