@@ -5,11 +5,11 @@
             {
                 "match": ".go$",
                 "notMatch": "_test.go$",
-                "cmd": "go test ./... && git add . && git commit -am working || git reset --hard"
+                "cmd": "go test ${fileDirname}/... && git add . && git commit -am working || git reset --hard"
             },
             {
                 "match": "_test.go$",
-                "cmd": "go test ./..."
+                "cmd": "go test ${fileDirname}/..."
             }
         ]
     }
