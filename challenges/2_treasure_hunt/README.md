@@ -16,10 +16,10 @@ Your mission: write a function FindTreasure(map [][]int) ([][]int, error) that t
 
 Before you begin, there are several constraints and conditions you need to be aware of:
 
-1. The map must be a square grid (n * n), where n is between 1 and 100. If it's not, your function should return an error.
+1. The map must be a square grid (n * n), where n is between 2 and 100. If it's not, your function should return an error.
 2. The map cannot be empty. If it is, your function should return an error.
-3. The numbers on the cells must accurately represent the straight-line distance to the treasure. If they don't, your function should return an error.
-4. There must be exactly one treasure on the map. If there is more than one, your function should return an error.
+3. The numbers on the cells must indicate the straight-line moves to the treasure. If not, return an error.
+4. There must be exactly one treasure on the map. If not, your function should return an error.
 5. The algorithm should always move to the adjecent cell with the lowest number. If there are multiple adjecent cells with that same lowest number, the movement should be in this order of preference: East, South, West, North.
 
 ## Example 📝

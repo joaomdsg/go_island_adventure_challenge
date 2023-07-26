@@ -68,7 +68,7 @@ func Test_Map_Is_Too_Large(t *testing.T) {
 }
 
 func Test_Map_Is_Too_Small(t *testing.T) {
-	islandMap := [][]int{{0}}
+	islandMap := [][]int{ {0} }
 	_, err := FindTreasure(islandMap)
 	assert.Error(t, err)
 }
